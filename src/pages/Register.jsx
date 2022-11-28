@@ -10,7 +10,10 @@ const Register = () => {
                     <input type="text" placeholder='display name'/>
                     <input type="email" placeholder='email'/>
                     <input type="password" placeholder='password'/>
-                    <input type="file"/>
+                    <input style={{display: "none"}} type="file" id='file'/>
+                    <label htmlFor='file'>
+                        <img src="" alt=""/>
+                    </label>
                     <button>Sign up</button>
                 </form>
                 <p>You do have account? Login</p>

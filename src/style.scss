@@ -39,6 +39,17 @@
           color: rgb(175,175,175);
         }
       }
+      button {
+        background-color: #7b96ec;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+    p {
+      color: #5d5d8d;
+      font-size: 12px;
     }
   }
 }
